@@ -25,33 +25,10 @@
     padding-left: 20px;
 }
 
-/*.image-container {
-  position: relative;
-  display: inline-block;
-}
-
-.image-container img {
-display: block;
-
- }*/
-
 .responsive {
     width: 100%;
     height: auto;
 }
-
-/*.overlay-text {
-position: absolute;
-top: 50%; 
-left: 50%;
-transform: translate(-50%, -50%);
-background-color: transparent;
-color: white;
-font-size: auto; 
-text-align: right;
-align-self: baseline;
-text-justify: ;
-}*/
 
 .text {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -61,6 +38,7 @@ text-justify: ;
     margin-right: 20px;
     align-content: center;
     padding: 10px;
+    box-shadow: 2px 2px lightgrey;
 }
 
 .font {
@@ -85,14 +63,66 @@ text-justify: ;
 }
 
 .work {
-    font-style: oblique;
     margin-left: 20px;
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin-bottom: 3px;
 }
 
 .threeboxes {
     display: flex;
     flex-direction: row;
     margin: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.resp1 {
+    width: 100%;
+    height: auto;
+}
+
+.namedescribe {
+    box-shadow: 2px 2px lightgray;
+}
+.underimg1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+   /*padding-right: 10px;*/
+}
+
+.font1 {
+    font-size: auto;
     
+}
+
+.logo1 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+
+
+.resp1a {
+    width: 70%;
+    height: 30%;
+}
+
+.resp1b {
+    width: 70%;
+    height: 30%;
+}
+
+.describe1 {
+    padding-left: 5px;
+    font-size: auto;
 }
