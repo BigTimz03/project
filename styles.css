@@ -129,3 +129,58 @@
     font-size: auto;
     padding-left: 5px;
 }
+
+.down {
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 20px;
+}
+
+.text-part {
+    font-size: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.paragraph-font {
+    font-size: auto;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    font-size: auto;
+    
+    }
+    
+.phone-pic {
+    width: 6%;
+    height: auto;
+    
+}
+
+.contact-pic {
+    display: inline-flex;  
+    
+    gap: 10px;
+    padding-bottom: 5px;
+}
+
+.each-contact {
+    width: 6%;
+    height: auto;
+}
+.img-part {
+    display: flex;
+    flex: 1;
+}
+
+.last-img {
+    width: 100%;
+    height: auto;
+}
