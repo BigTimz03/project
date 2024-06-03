@@ -60,6 +60,8 @@
 
 .middle {
     background-color: white;
+    
+    
 }
 
 .work {
@@ -72,15 +74,20 @@
 .threeboxes {
     display: flex;
     flex-direction: row;
-    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 20px;
     justify-content: space-between;
 }
 
-.div1 {
+.project-card {
     display: flex;
     flex-direction: column;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 20px;
+}
+
+.name-icon-describe {
+    box-shadow: 2px 2px lightgray;
+   
 }
 
 .resp1 {
@@ -88,41 +95,37 @@
     height: auto;
 }
 
-.namedescribe {
-    box-shadow: 2px 2px lightgray;
-}
-.underimg1 {
+.name-icon {
     display: flex;
     flex-direction: row;
-    padding-left: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    justify-content: space-between;
    /*padding-right: 10px;*/
 }
 
-.font1 {
+.project-name {
     font-size: auto;
+    display: flex;
+    flex: 3;
+}
+
+.icon {
+    display: flex;
+    /*flex-direction: row;*/
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex: 2;
     
 }
 
-.logo1 {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    justify-content: flex-end;
-    margin-right: 5px;
-}
-
-
-.resp1a {
-    width: 70%;
-    height: 30%;
-}
-
-.resp1b {
-    width: 70%;
-    height: 30%;
+.responsive2 {
+    width: 12%;
+    height: auto;
 }
 
 .describe1 {
-    padding-left: 5px;
     font-size: auto;
+    padding-left: 5px;
 }
