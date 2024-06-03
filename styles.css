@@ -21,10 +21,13 @@
     background-color: skyblue;
     padding-bottom: 20px;
     margin-bottom: 25px;
-    padding-top: 15px;
-    padding-left: 20px;
+    padding: 40px;
+    /*padding-left: 20px;*/
 }
 
+.author-image {
+    flex: 1;
+}
 .responsive {
     width: 100%;
     height: auto;
@@ -39,11 +42,11 @@
     align-content: center;
     padding: 10px;
     box-shadow: 2px 2px lightgrey;
+    flex: 2;
 }
 
-.font {
-    font-size: 1.5rem;
-}
+
+
 
 .logo {
     justify-content: flex-end;
@@ -51,6 +54,7 @@
     flex-direction: row;
     margin-right: 5px;
     gap: 10px;
+    padding-top: 20px;
 }
 
 .responsive1 {
@@ -60,7 +64,7 @@
 
 .middle {
     background-color: white;
-    
+    margin-bottom: 60px;
     
 }
 
@@ -77,6 +81,7 @@
     margin-bottom: 10px;
     margin-right: 20px;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .project-card {
