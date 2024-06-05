@@ -20,6 +20,7 @@
     margin-bottom: 25px;
     /*background-image: project-card1;*/
     padding: 40px;
+    width: 100%;
     /*padding-left: 20px;*/
 }
 
@@ -57,19 +58,19 @@
 
 .responsive1 {
     width: 6%;
-    height: 6%;
+    height: auto;
 }
 
 .middle {
     background-color: white;
     margin-bottom: 60px;
-    
+   
 }
 
 .work {
     margin-left: 20px;
     font-family: monospace;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     margin-bottom: 3px;
 }
 
@@ -87,7 +88,7 @@
     flex-direction: column;
     margin-left: 20px;
     width: 100%;
-    height: auto;
+    
 }
 
 .name-icon-describe {
@@ -141,6 +142,7 @@
     flex-direction: row;
     padding: 30px;
     gap: 20px;
+    
 }
 
 .text-part {
@@ -149,7 +151,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    flex: 1;
+    width: 100%;
 }
 
 .paragraph-font {
@@ -160,7 +162,7 @@
     display: flex;
     flex-direction: row;
     font-size: auto;
-    gap:10px
+    gap:10px;
     }
     
 .phone-pic {
@@ -169,20 +171,22 @@
     
 }
 
-.contact-pic {
-    display: inline-flex;  
-    
-    gap: 10px;
+/*.contact-pic {
+    display: flex;  
+    gap: 5px;
     padding-bottom: 5px;
-}
+}*/
 
 .each-contact {
-    width: 6%;
+    width: 15%;
     height: auto;
+    padding-right: 10px;
 }
+
 .img-part {
     display: flex;
-    flex: 1;
+    width: 100%;
+    height: auto;
 }
 
 .last-img {
