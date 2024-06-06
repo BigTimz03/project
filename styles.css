@@ -9,23 +9,23 @@
     max-width: 1200px;
 }
 
+body {
+    background-color: skyblue;
+}
 
 .top {
     display: flex;
     flex-direction: row;
-    background-color: skyblue;
-   
     padding: 30px;
     
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 .author-image {
     position: relative;
-    width: 100%;
+    flex-basis: 50%;
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 51%;
 }
 
 .author-name {
@@ -45,7 +45,6 @@
 
 .text {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /*background-color: whitesmoke;*/
     margin-top: auto;
     margin-bottom: auto;
     align-content: center;
@@ -54,10 +53,9 @@
     justify-self: center;
     display: flex;
     flex-direction: column;
+    flex-basis: 50%;
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 49%;
-    width: 100%;
 }
 
 .logo {
@@ -90,12 +88,9 @@
 .threeboxes {
     display: flex;
     flex-direction: row;
-    
-    /*margin-bottom: 10px;*/
     margin-right: 20px;
-    justify-content: space-between;
     padding-bottom: 20px;
-    
+    flex-wrap: wrap;
 }
 
 .project-card {
@@ -103,6 +98,7 @@
     flex-direction: column;
     margin-left: 20px;
     width: 100%;
+    flex-basis: 40%;
     flex-grow: 1;
     flex-shrink: 1;
     
@@ -111,6 +107,7 @@
 .name-icon-describe {
     box-shadow: 0rem 0rem 1rem 0rem grey;
     padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .resp1 {
